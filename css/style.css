@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+.skills, .list {
+    color: orange;
+}
+
+.inputSkill {
+    border-color: green;
+    color: orange;
+}
+
+.newSkill {
+    color: green;
+    background-color: white;
+    border-color: green;
+}
